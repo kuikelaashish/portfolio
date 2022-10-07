@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Source+Code+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+.sidebar{
+    background-color: powderblue;
+    font-family: sans-serif;
+    height: 100vh;
+    transform:translate(-443px,0px);
+    transition: transform 0.35s ease-in;
+         position: absolute;
+         cursor: pointer;
+}    
+.sidebar nav{
+    padding: 2px
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    font-family: fantasy;
+    padding: 4vw;
+    width: 5.5vw;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:rgb(26, 25, 25);
+    font-family: serif;
+    height: 100%;
+    font-weight: bolder;
+}
+.main{
+    /*background-color: green;*/
+    width: 70vwh;
+    height: 90vh;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+ display: flex;
+background-color: white;
+height: 80vh;
+width: 70vw;
+margin: 142px;
+justify-content:space-around;
+}
+.devInfo{
+    font-size: 10px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    margin-top: 91px;
+    width: fit-content;
+    font-family: serif;
+}
+.hello{
+    font-size: 3em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+font-family: 'Source Code Pro', monospace;
+}
+.name{
+    font-size: 3.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about{
+    font-size: 2.4em;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+.moreabout{
+   font-size: 2.2em;
+   margin-top: 11px;
+}
+.buttons {
+    margin-top: 3.3em;
+    font-size: 16px;
+}
+.btn buttons{
+    padding: 8px 24px;
+    border-radius: 38px;
+   background-color:dodgerblue;
+   color: ghostwhite;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 5px 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 15px;
+    padding: 10px 9px;
+    margin: 10px 0;
+    border-radius: 45px;
+    max-width: 210px;
+    background-color: dodgerblue;
+    color: white;
+    width: fit-content;
+}
+.btn:hover {
+    background-color: white;
+    color: dodgerblue
+}
+.devPic img {
+    width: 25em;
+    height: 35em;
+}
+.contactform{
+    font-family: 1em sans-serif;
+    padding: 0 500px;
+    margin: 88px;
+}
+.contactform h1{
+        font-family: serif;
+       /* padding: 30px 0;*/
+}
+.contactform form div{
+    padding: 15px 4px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+/*width: 15vw;*/
+border-radius: 25px;
+margin: 2px;
+padding: 8px;
+}
+.contactform form{
+ margin: 0 40px;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: rgb(93, 93, 119);
+    margin: 2 5px;
+    padding: 2px 0 0 0;
+}
+.blogItem{
+    margin: 20px;
+    font-family: sans-serif;
+}
+.blogContainer{
+    margin: 50px;
+}
+h1{
+    font-family: sans-serif cursive;
+    flex-direction: column;
+}
+p{
+font-family: serif;
+flex-direction: column;
+}
+.intro{
+    margin: 10px 88px;
+}
+.intro h2{
+    font-family: sans-serif monospace;
+}
+.intro p{
+    font-family:  ' Unicode', 'Lucida Grande', sans-serif;
+}
+.skillcontainer{
+ padding: 18px;
+}
+.skillItem{
+display: flex;
+align-items: center;
+padding-left: 24px;
+font-weight: bolder;
+} 
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: ghostwhite;
+    border: 4px solid yellow;
+}
+.hundered{
+width: 290px;
+background-color: rgb(20, 43, 248);
+}
+.fifty{
+    width: 168px;
+    background-color: rgb(103, 104, 73);
+}
+.t5{
+    width: 95px;
+    background-color: rgb(0, 89, 255);
+}
+.t80{
+    width: 230px;
+    background-color: rgb(0, 0, 0);
+}
+.t10{
+    width: 65px;
+    background-color: rgb(9, 102, 252);
+}
+.t4{
+    width: 45px;
+    background-color: rgb(85, 6, 158);
+}
+.hamburger{
+position: absolute;
+cursor: pointer;
+top: 10px;
+left: 25px;
+}
+.ham{
+margin-top: 10px;
+margin-left: 10px;
+}
+.cross{
+margin-left: 190px;
+margin-top: 10px;
+}
+@media(max-width: 1815px) {
+  /* *{
+
+     background-color: rgb(187, 66, 66);
+    } */
+    .buttons{
+        font-size: 8px;
+    }
+    .devInfo{
+        font-size: 10px;
+    }
+.intro, .blogContainer, .contactform{
+    margin:50px 8px;
+  }
+}
+.bg{
+    background-image: url(./coding.jpg);
+    background-size: cover;
+    height: 980px;
+}
